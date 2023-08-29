@@ -56,3 +56,8 @@ reset secret and copy to .env variables
 add redirect (t3 app docs) - http://localhost:3000/api/auth/callback/discord
 -----------------------------------------------
 NextAuth secret - run openssl rand -base64 32
+
+Deployment setup
+create and push to git repo
+go to vercel and connect with github project
+add in environment variables
